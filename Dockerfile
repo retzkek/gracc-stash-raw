@@ -1,4 +1,4 @@
-FROM logstash:2.3
+FROM logstash:2-alpine
 
 COPY logstash.conf gracc-raw-template.json /etc/gracc-stash/
 
