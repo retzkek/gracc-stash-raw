@@ -1,6 +1,6 @@
 {
     "order" : 0,
-    "template" : "gracc.*.raw2-*",
+    "template" : "gracc.*.raw3-*",
     "settings" : {
         "index" : {
             "translog" : {
@@ -433,7 +433,7 @@
                         "type" : "date"
                     },
                     "Status" : {
-                        "type" : "integer"
+                        "type" : "keyword"
                     },
                     "Status_description" : {
                         "type" : "text"
