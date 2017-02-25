@@ -1,3 +1,3 @@
 .PHONY: image
 image:
-	docker build -t opensciencegrid/gracc-stash-raw:3.1 .
+	docker build -t opensciencegrid/gracc-stash-raw:3.1-debug .
